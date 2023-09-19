@@ -1,0 +1,145 @@
+2023.09.19 08:40:12 INFO  Started: Metals version 1.0.1 in folders 'G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07' for client Visual Studio Code 1.82.2.
+Sep 19, 2023 8:40:12 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 19, 2023 8:40:12 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 19, 2023 8:40:12 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 19, 2023 8:40:13 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07\.metals\metals (H2 2.1)
+Sep 19, 2023 8:40:13 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Sep 19, 2023 8:40:13 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.017s)
+Sep 19, 2023 8:40:13 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Sep 19, 2023 8:40:13 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Sep 19, 2023 8:40:13 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Sep 19, 2023 8:40:13 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Sep 19, 2023 8:40:13 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Sep 19, 2023 8:40:13 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Sep 19, 2023 8:40:13 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.022s)
+2023.09.19 08:40:13 INFO  time: initialize in 0.97s
+2023.09.19 08:40:22 INFO  no build target found for G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07\1.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.19 08:40:25 INFO  time: code lens generation in 10s
+2023.09.19 08:40:34 INFO  Running List(C:\Users\akila\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07)
+2023.09.19 08:40:34 INFO  Attempting to connect to the build server...
+2023.09.19 08:40:34 INFO  Running BSP server List(C:\Users\akila\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07\.scala-build\ide-options-v2.json, G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07)
+2023.09.19 08:40:34 INFO  Attempting to connect to the build server...
+2023.09.19 08:40:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07\.metals\bsp.trace.json or C:\Users\akila\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.19 08:40:34 INFO  Running BSP server List(C:\Users\akila\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07\.scala-build\ide-options-v2.json, G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07)
+2023.09.19 08:40:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07\.metals\bsp.trace.json or C:\Users\akila\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.19 08:40:35 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.19 08:40:35 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.19 08:40:35 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.19 08:40:35 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.19 08:40:35 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.19 08:40:35 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.19 08:40:35 INFO  BSP server: (watching) Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.19 08:40:35 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.19 08:40:36 INFO  BSP server: Starting compilation server
+2023.09.19 08:40:37 INFO  BSP server: Starting compilation server
+2023.09.19 08:40:46 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.19 08:40:46 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.19 08:40:46 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.19 08:40:46 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.19 08:40:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.19 08:40:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.19 08:40:46 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.19 08:40:46 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.09.19 08:40:46 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.19 08:40:46 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.19 08:40:46 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.19 08:40:46 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.19 08:40:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.19 08:40:46 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.19 08:40:47 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.19 08:40:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.19 08:40:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.19 08:40:47 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.19 08:40:47 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.19 08:40:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.19 08:40:47 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.19 08:40:47 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.19 08:40:47 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.19 08:40:47 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.19 08:40:48 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.19 08:40:48 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.09.19 08:40:48 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 08:40:48 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 08:40:48 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 08:40:48 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 08:40:48 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 08:40:48 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 08:40:48 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 08:40:48 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 08:40:48 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 08:40:49 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 08:40:50 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 08:40:49 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.19 08:40:50 INFO  time: Connected to build server in 15s
+2023.09.19 08:40:50 INFO  Connected to Build server: scala-cli v1.0.0
+2023.09.19 08:40:50 INFO  time: Connected to build server in 15s
+2023.09.19 08:40:50 INFO  Connected to Build server: scala-cli v1.0.0
+2023.09.19 08:40:50 INFO  time: Imported build in 0.34s
+2023.09.19 08:40:50 INFO  time: Imported build in 0.32s
+2023.09.19 08:40:51 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.0' (since 6.063s)
+2023.09.19 08:40:51 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.09.19 08:40:51 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.09.19 08:40:51 INFO  time: indexed workspace in 1.16s
+2023.09.19 08:40:52 INFO  time: indexed workspace in 1.44s
+2023.09.19 08:40:53 INFO  time: compiled project_bd2c96d2de in 2.64s
+2023.09.19 08:40:54 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.0' (since 9.137s)
+2023.09.19 08:40:53 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.09.19 08:40:54 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.09.19 08:40:53 INFO  time: compiled project_bd2c96d2de in 0.26s
+2023.09.19 08:40:54 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.09.19 08:40:54 INFO  time: compiled project_bd2c96d2de in 0.26s
+2023.09.19 08:40:55 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.09.19 08:40:55 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.0' (since 10.508s)
+2023.09.19 08:40:55 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.09.19 08:40:55 INFO  time: compiled project_bd2c96d2de in 17ms
+2023.09.19 08:41:00 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.09.19 08:41:00 INFO  time: compiled project_bd2c96d2de in 0.18s
+2023.09.19 08:41:19 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.09.19 08:41:19 INFO  time: compiled project_bd2c96d2de in 0.17s
+2023.09.19 08:41:22 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.09.19 08:41:22 INFO  time: compiled project_bd2c96d2de in 0.15s
+2023.09.19 08:41:24 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.09.19 08:41:24 INFO  time: compiled project_bd2c96d2de in 0.15s
+2023.09.19 08:42:40 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.09.19 08:42:40 INFO  time: compiled project_bd2c96d2de in 0.14s
+2023.09.19 08:50:18 WARN  Could not find semantic tokens for: file:///G:/UCSC/Year%202/Functional%20Programming/Assignment/Assignment7/Functional-Programming-Assignment-07/3.scala
+2023.09.19 08:50:18 INFO  Disconnecting from scala-cli session...
+2023.09.19 08:50:18 INFO  Shut down connection with build server.
+2023.09.19 08:50:18 INFO  Attempting to connect to the build server...
+2023.09.19 08:50:18 INFO  Cancelling compilation on scala-cli server
+2023.09.19 08:50:18 INFO  Running BSP server List(C:\Users\akila\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07\.scala-build\ide-options-v2.json, G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07)
+2023.09.19 08:50:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07\.metals\bsp.trace.json or C:\Users\akila\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.19 08:50:18 WARN  Could not find semantic tokens for: file:///G:/UCSC/Year%202/Functional%20Programming/Assignment/Assignment7/Functional-Programming-Assignment-07/3.scala
+2023.09.19 08:50:18 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.09.19 08:50:18 INFO  time: compiled project_bd2c96d2de in 0.16s
+2023.09.19 08:50:18 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.09.19 08:50:18 INFO  time: compiled project_bd2c96d2de in 0.15s
+2023.09.19 08:50:21 INFO  time: Connected to build server in 2.45s
+2023.09.19 08:50:21 INFO  Connected to Build server: scala-cli v1.0.0
+2023.09.19 08:50:21 INFO  time: indexed workspace in 0.23s
+2023.09.19 08:50:21 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.09.19 08:50:21 INFO  time: compiled project_bd2c96d2de in 0.61s
+2023.09.19 08:50:21 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.09.19 08:50:21 INFO  time: compiled project_bd2c96d2de in 0.1s
+2023.09.19 08:50:21 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.09.19 08:50:22 INFO  time: compiled project_bd2c96d2de in 0.2s
+2023.09.19 08:50:22 INFO  Refreshed build after change
+2023.09.19 08:52:04 INFO  Shutting down server
+2023.09.19 08:52:04 INFO  shutting down Metals
+2023.09.19 08:52:04 INFO  Shut down connection with build server.
+2023.09.19 08:52:04 INFO  Exiting server
+2023.09.19 08:52:04 INFO  Running BSP server List(C:\Users\akila\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07\.scala-build\ide-options-v2.json, G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07)
+2023.09.19 08:52:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at G:\UCSC\Year 2\Functional Programming\Assignment\Assignment7\Functional-Programming-Assignment-07\.metals\bsp.trace.json or C:\Users\akila\AppData\Local\scalameta\metals\cache\bsp.trace.json
